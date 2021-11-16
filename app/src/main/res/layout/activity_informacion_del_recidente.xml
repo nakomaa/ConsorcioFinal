@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TextV_Piso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2021_11_14_at_00_42_56"
+    tools:context=".InformacionDelRecidente">
+
+    <TextView
+        android:id="@+id/tv_VistaApellido"
+        android:layout_width="105dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="460dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Apellido: "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_Apellido"
+        android:layout_width="183dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="455dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_VIstas_Dni"
+        android:layout_width="67dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="383dp"
+        android:fontFamily="sans-serif-black"
+        android:text="DNI:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_Dni"
+        android:layout_width="169dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="383dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/Tw_Piso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="612dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Tw_Departamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="612dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_Piso_Departamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="650dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Piso/Departamento: "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Tv_Vistanombre"
+        android:layout_width="94dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="537dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Nombre: "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_Nombre"
+        android:layout_width="169dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="539dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_VistaExpensas"
+        android:layout_width="120dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="229dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Expensas: "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_Expensas"
+        android:layout_width="169dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="229dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_Vista_Alquiler"
+        android:layout_width="92dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="73dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Alquiler: "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_Alquiler"
+        android:layout_width="169dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="79dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_VistaExpensas2"
+        android:layout_width="233dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="152dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Expensas extraordianrias: "
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_ExpensasExtraordinarias"
+        android:layout_width="134dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="159dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/Tv_Vista_inquilino_propietario"
+        android:layout_width="208dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="306dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Tipo de recidente: "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_Inquilino_propietario"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="302dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
